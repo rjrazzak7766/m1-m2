@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(158, 157, 157);
+}
+.header{
+    width: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+.menu li{
+    
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    border: 0 2px solid rgba(79, 68, 238, 0.658);
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+.menu li a:hover{
+    color: red;
+}
+/*------------blog Section---------*/
+
+.BlogContent{
+    padding: 10px;
+    text-align: center;
+}
+
+.blog-items{
+    margin: 10px 10px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.blog-items h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: white;
+
+}
+ .blog-items img{
+    width: 50%;
+
+ }
+ .blog-items  p{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+ }
+
